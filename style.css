@@ -7,6 +7,17 @@ body {
     color: beige;
 }
 header {
-    width: 100px;
-    margin: 0 auto 40px;
+    width: 2000px;
+    margin: 50px 100px 50px;
+}
+h1 {
+    text-align: center;
+}
+header nav ul {
+    display: inline;
+    justify-content: center;
+    border-top: 20px;
+    border-bottom: 20px;
+    background-color: blueviolet;
+    padding: 10px 0px 10px;
 }
