@@ -10,13 +10,39 @@ header {
     background-color: gray;
     color: beige;
     text-align: center;
-    padding: 100px;
+    padding: 30px;
 }
 h1 {
-    font-size: 50px;
+    font-size: 75px;
 }
 header nav ul {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 45px;
+}
+header nav ul li {
+    margin: 20px 15px;
+    list-style: none;
+}
+header div {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+}
+div {
+    background-color: black;
+    color: beige;
+    text-align: left;
+    padding: 20px;
+}
+aside {
+   flex basis: 950px;
+   background-color: beige;
+   color: Dimgray;
+    text-align: center;
+}
+aside nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
 }
