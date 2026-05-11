@@ -6,3 +6,9 @@ body {
     font-family: sans-serif;
     color: beige;
 }
+header {
+    background-color: gray;
+    color: beige;
+    text-align: center;
+    padding: 200px;
+}
